@@ -7,7 +7,7 @@ let env = require('node-env-file');//npm install node-env-file
 env(__dirname + '/file.env');
 //libreria echar ojo dotenv
 
-const puerto = process.env.PUERTO || 3000;
+const puerto = process.env.PUERTO || 3008;
 const servidor = process.env.HOST || '127.0.0.1'
 
 aplicacion.listen(puerto, () => {
